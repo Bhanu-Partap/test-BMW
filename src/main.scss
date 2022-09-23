@@ -1,0 +1,64 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/root";
+
+@media screen and (max-width: "768px") {
+  footer {
+    position: fixed;
+    bottom: 0;
+    background: crimson !important;
+  }
+
+  .image {
+    width: 250px;
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: "992px") {
+  footer {
+    position: fixed;
+    bottom: 0;
+    background: crimson !important;
+  }
+
+  .image {
+    width: 350px;
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.main {
+  position: relative;
+  top: 10vh;
+}
+
+nav {
+  z-index: 1;
+}
+
+.nav-link{
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  margin: 10px;
+}
+.nav-link:hover{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin: 10px;
+
+}
+
+.active {
+  background-color: black;
+  color: white !important;
+  border-radius: 10px;
+}
